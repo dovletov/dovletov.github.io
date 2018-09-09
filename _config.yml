@@ -12,6 +12,10 @@ url: "https://dovletov.github.io/"
 # link generation template
 permalink: "/:year/:month/:day/:title"
 
+# disqus
+disqus:
+  shortname: newbies-blog
+
 # social links
 twitter_username: jekyllrb
 github_username:  jekyll
