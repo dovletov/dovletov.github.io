@@ -16,6 +16,9 @@ permalink: "/:year/:month/:day/:title"
 disqus:
   shortname: newbies-blog
 
+# ga
+google_analytics: 56481767
+
 # social links
 twitter_username: jekyllrb
 github_username:  jekyll
