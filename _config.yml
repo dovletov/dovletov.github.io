@@ -17,7 +17,7 @@ disqus:
   shortname: newbies-blog
 
 # ga
-google_analytics: 56481767
+google_analytics: UA-56481767-1
 
 # social links
 twitter_username: jekyllrb
