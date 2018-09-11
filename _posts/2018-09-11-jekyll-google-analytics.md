@@ -6,11 +6,24 @@ categories: jekyll
 comments: true
 ---
 
-Jekyll [Minima theme][minima-git] already contains Google Analytics module, which is inluded in the header file.
+Jekyll [Minima theme][minima-git] already contains Google Analytics module (`_include/google-analytics.html`), which is inluded in `_include/head.html`:
+{% highlight html
+<script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+%}
 
 In order to start using analytics, we have to create an account at [Google Analytics][google-analytics] and get Tracking ID for our website.
 For simplification, we add obtained Tracking ID in our `_config.yml` file:
-{% highlight ruby %}
+{% highlight yaml %}
 title: Your awesome title
 ...
 google_analytics: UA-123456789-0
