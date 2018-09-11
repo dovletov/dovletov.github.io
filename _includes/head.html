@@ -7,7 +7,8 @@
   {%- feed_meta -%}
   <!-- analytics -->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-  	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    {%- include google-analytics.html -%}
+  	<!-- <script async="" src="https://www.google-analytics.com/analytics.js"></script> -->
+    <!-- {%- include google-analytics.html -%} -->
+    {%- include gtag-analytics.html -%}
   {%- endif -%}
 </head>
