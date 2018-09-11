@@ -20,29 +20,3 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 }
 </script>
 {% endhighlight %}
-
-In order to start using analytics, we have to create an account at [Google Analytics][google-analytics] and get Tracking ID for our website.
-For simplification, we add obtained Tracking ID in our `_config.yml` file:
-{% highlight yaml %}
-title: Your awesome title
-...
-google_analytics: UA-123456789-0
-{% endhighlight %}
-
-If you're experienced with [analytics.js][analytics], you can replace it with [gtag.js][gtag] snippet, which provides most flexibility with other Google products:
-{% highlight html %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}');
-</script>
-{% endhighlight %}
-
-[minima-git]: https://github.com/jekyll/minima
-[google-analytics]: https://analytics.google.com/
-[analytics]: https://developers.google.com/analytics/devguides/collection/analyticsjs/
-[gtag]: https://developers.google.com/analytics/devguides/collection/gtagjs/
