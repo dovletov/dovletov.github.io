@@ -45,7 +45,7 @@ Now you can see all of your traffic.
 If you're experienced with [analytics.js][analytics], you can replace it with [gtag.js][gtag] snippet, which provides most flexibility with other Google products:
 {% highlight html %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123456789-0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
