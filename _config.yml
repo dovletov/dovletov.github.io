@@ -40,6 +40,10 @@ rss: rss
 #   instance: example.com
 
 
+# pagination
+paginate: 5
+paginate_path: /page:num/
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
