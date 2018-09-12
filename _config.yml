@@ -39,9 +39,7 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
-
-# pagination
-paginate: 5
+paginate: 6
 paginate_path: /page:num/
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -63,3 +61,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-paginate
+ # - jekyll-paginate-v2
