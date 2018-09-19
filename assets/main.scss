@@ -7,11 +7,19 @@
 .post-content{
     text-align: justify;
 }
+    .center-image{
+        margin: 0 auto;
+        display: block;
+    }
+    .previous-next:{
+        margin-bottom: 30px;
+    }
+        .previous: {}
+        .next: {
+            float: right;
+        }
 
-.center-image{
-    margin: 0 auto;
-    display: block;
-}
+
 
 .pagination a, .pagination span {
     padding: 7px 18px;
@@ -32,7 +40,3 @@
 .pagination {
     text-align: center;
  }
-
-.next {
-    float: right;
-}
