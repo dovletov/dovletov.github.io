@@ -11,6 +11,7 @@ url: "https://dovletov.github.io/"
 
 # excerpts
 show_excerpts: true # show excerpts on the home page
+excerpt_separator: <!--more-->
 
 # link generation template
 permalink: "/:year/:month/:day/:title"
