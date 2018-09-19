@@ -5,7 +5,6 @@ author: "Key Dee"
 date:   2018-09-11 10:28:42 +0200
 categories: jekyll
 comments: true
-excerpt_separator: \{% endhighlight %\}
 ---
 
 Jekyll [Minima theme][minima-git] already contains analytics snippet in `_include/google-analytics.html` file:
@@ -23,6 +22,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
 </script>
 {% endhighlight %}
 Thus, this file can be easily included into all pages of your website, such as done by default using `_include/head.html`.
+<!--more-->
 
 However, in order to start using analytica the `site.google_analytics`  variable in `_config.yml`  have to be defined.
 This variable should contain your Tracking ID for your website, which you can get after creating an account at [Google Analytics][google-analytics].
