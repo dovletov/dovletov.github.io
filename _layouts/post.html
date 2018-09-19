@@ -11,17 +11,18 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        <span> • by </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
-       • 
-       <span class="read-time">
+      <span> • </span>
+      <span class="read-time">
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
           ~1 min read.
         {% else %}
           ~{{ words | divided_by:180 }} mins read.
         {% endif %}
-       </span>
+      </span>
     </p>
   </header>
 
