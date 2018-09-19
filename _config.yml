@@ -45,8 +45,6 @@ rss: rss
 paginate: 6
 paginate_path: /page:num/
 
-show_excerpts: false # set to true to show excerpts on the homepage
-
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
