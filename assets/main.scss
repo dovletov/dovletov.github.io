@@ -4,6 +4,12 @@
 
 @import "minima";
 
+// Width of the content area
+$content-width:    1280px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        1280px !default;
+
 .post-content {
     text-align: justify;
 }
