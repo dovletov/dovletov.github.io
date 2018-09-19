@@ -9,6 +9,9 @@ description: > # this means to ignore newlines until "twitter_username:"
 # url
 url: "https://dovletov.github.io/"
 
+# excerpts
+show_excerpts: true # show excerpts on the home page
+
 # link generation template
 permalink: "/:year/:month/:day/:title"
 
