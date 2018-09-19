@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Add google analytics to your Jekyll website"
+author: "Key Dee"
 date:   2018-09-11 10:28:42 +0200
 categories: jekyll
 comments: true
