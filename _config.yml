@@ -43,7 +43,7 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
 
 # Minima date format
@@ -63,4 +63,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-paginate
- # - jekyll-paginate-v2
+ - jekyll-admin

@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 gemspec
 gem 'jekyll-paginate'
-# gem 'jekyll-paginate-v2'
+gem 'jekyll-admin', group: :jekyll_plugins
