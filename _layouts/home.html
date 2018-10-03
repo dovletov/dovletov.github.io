@@ -14,8 +14,9 @@ layout: default
     <ul class="post-list">
       {%- for post in paginator.posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <span class="post-meta">{{ post.date }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -23,40 +24,38 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          <a href="{{ post.url | prepend: site.baseurl }}">Read more ...</a>
+          <a class="btn btn-outline-success my-2 my-sm-0"  href="{{ post.url | prepend: site.baseurl }}" role="button">Read more ...</a>
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
+  {%- endif -%}
 
-    <!-- pagination -->
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination"> 
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-      {% else %}
-        <span>&laquo; Prev</span>
-      {% endif %}
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <span class="webjeda">{{ page }}</span>
-        {% elsif page == 1 %}
-          <a href="/">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
-    </div>
+  <!-- pagination -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+      <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+    {% else %}
+      <li class="page-item"><a class="page-link">Previous</a></li>
     {% endif %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <!-- <span class="webjeda">{{ page }}</span> -->
+      {% elsif page == 1 %}
+        <li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
+      {% else %}
+        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+    {% else %}
+      <li class="page-item"><a class="page-link" href="">Next</a></li>
+    {% endif %}
+  </ul>
+  {% endif %}
 
 </div>
