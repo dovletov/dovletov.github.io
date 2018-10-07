@@ -9,3 +9,9 @@ mediumturquoise !important
 moccasin !important
 sandybrown !important
 wheat !important
+
+f5deb3
+8cba80
+658e9c
+4d5382
+514663
