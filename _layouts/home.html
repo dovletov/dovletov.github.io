@@ -15,8 +15,10 @@ layout: default
       {%- for post in paginator.posts -%}
       <li>
         <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
-        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <span class="post-meta">{{ post.date }}</span>
+        <span class="post-meta">{{ post.date | date_to_long_string }}</span>
+        <!-- <span class="post-meta">{{ post.date }}</span> -->
+        <span> • </span>
+        <span class="post-meta">{{ post.categories | join:', ' }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}

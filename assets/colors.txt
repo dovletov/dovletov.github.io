@@ -1,0 +1,11 @@
+burlywood !important
+darkseagreen !important
+darksalmon !important
+gold !important
+indianred !important
+lightblue !important
+lightcoral !important
+mediumturquoise !important
+moccasin !important
+sandybrown !important
+wheat !important

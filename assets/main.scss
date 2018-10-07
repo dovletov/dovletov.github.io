@@ -5,6 +5,16 @@
 @import "custom";
 
 
+.border-t {
+    border-top: 3px solid;
+    border-top-color: #8cba80;
+}
+
+.bg-wheat {
+    background-color: wheat;
+}
+
+
 .post-content {
     text-align: justify;
 }
