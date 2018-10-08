@@ -1,7 +1,7 @@
 ---
 title: Преобразование Радона [Radon-Transformation]
 layout: post
-author: KeyDee
+author: Key Dee
 date: '2018-10-07 13:07:46'
 categories:
 - ct
