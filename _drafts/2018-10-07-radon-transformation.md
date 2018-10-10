@@ -1,13 +1,25 @@
 ---
-title: Преобразование Радона [Radon-Transformation]
+title: Radon-Transformation
 layout: post
-author: Key Dee
+author: Ailurophile
 date: '2018-10-07 13:07:46'
 categories:
 - ct
 - mri
 mathjax: true
 ---
+
+This post is the mosts clear explanation of Radon-Transformations, which is used in computer tomography (CT) and magnetic resonance (MR) image generation and reconstruction.
+<!--more-->
+
+### Sinogram generation
+
+The Radon transform data is often called a sinogram.
+
+Example of sinogram generation.
+
+
+### Reconstruction from sinogram
 
 Homogeneous object, monochromatic radiation 
 
