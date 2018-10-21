@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Best Motivational Music For Sport"
-author: "Key Dee"
+author: "Ailurophile"
 date:   2018-09-12 10:28:42 +0200
-categories: [music, sport]
+categories:
+- music
+- sport
+- motivation
 comments: true
 ---
 

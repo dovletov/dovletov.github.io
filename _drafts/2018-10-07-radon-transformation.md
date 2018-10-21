@@ -4,8 +4,9 @@ layout: post
 author: Ailurophile
 date: '2018-10-07 13:07:46'
 categories:
-- ct
-- mri
+- CT
+- MRI
+comments: true
 mathjax: true
 ---
 
