@@ -13,7 +13,7 @@ mathjax: true
 This post is the mosts clear explanation of Radon-Transformations, which is used in computer tomography (CT) and magnetic resonance (MR) image generation and reconstruction.
 <!--more-->
 
-### Sinogram generation
+### Sinogram generation (test)
 
 The Radon transform data is often called a sinogram.
 
