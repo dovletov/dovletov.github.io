@@ -37,3 +37,4 @@ Feel free to suggest your favourite ones in comments.
 21. [Source Code](https://www.imdb.com/title/tt0945513/)
 22. [Million Dollar Baby](https://www.imdb.com/title/tt0405159/) -- remember: always protect yourself.
 23. [Southpaw](https://www.imdb.com/title/tt1798684/) -- I find this movie really motivating.
+24. [Easy A](https://www.imdb.com/title/tt1282140/) -- just because I'm in love with her <3
