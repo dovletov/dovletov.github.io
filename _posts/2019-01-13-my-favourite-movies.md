@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. March 4rd, 2019]
+title: My favourite movies [upd. March 10rd, 2019]
 layout: post
 author: Ailurophile
 date: '2019-01-13 13:07:46'
@@ -39,3 +39,4 @@ Feel free to suggest your favourite ones in comments.
 23. [Southpaw](https://www.imdb.com/title/tt1798684/) -- I find this movie really motivating.
 24. [Easy A](https://www.imdb.com/title/tt1282140/) -- just because I'm in love with her <3
 25. [A Beautiful Mind](https://www.imdb.com/title/tt0268978/) -- It is only in the mysterious equation of love that any logical reasons can be found.
+26. [Elysium](https://www.imdb.com/title/tt1535108/) -- Love sci-fi movies
