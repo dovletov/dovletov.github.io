@@ -7,6 +7,7 @@ categories:
 - Story of my life
 tags:
 comments: true
+published: true
 ---
 
 Последний год учебы в школе.

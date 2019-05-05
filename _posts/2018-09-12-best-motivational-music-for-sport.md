@@ -8,6 +8,7 @@ categories:
 - sport
 - motivation
 comments: true
+published: true
 ---
 
 Hi, everyone. This is my personal motivational playlist for sports.

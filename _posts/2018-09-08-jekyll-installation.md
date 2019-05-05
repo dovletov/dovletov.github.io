@@ -5,6 +5,7 @@ author: "Ailurophile"
 date:   2018-09-08 15:13:12 +0200
 categories: jekyll
 comments: true
+published: true
 ---
 So, this is my initial post. Looks like I am going to enjoy Jekyll (:
 

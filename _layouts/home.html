@@ -3,68 +3,64 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    {% if page.title %}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {% endif %}
 
-  {{ content }}
+    {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in paginator.posts -%}
-      <li>
-        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
-        <span class="post-meta">{{ post.date | date_to_long_string }}</span>
-        <!-- <span class="post-meta">{{ post.date }}</span> -->
-        <span> • </span>
-        <span class="post-meta">{{ post.categories | join:', ' }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          <a class="btn btn-outline-success my-2 my-sm-0"  href="{{ post.url | prepend: site.baseurl }}" role="button">Read more ...</a>
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+    {% if site.posts.size > 0 %}
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+        <ul class="post-list">
+            {% for post in paginator.posts %}
+                <li>
+                    <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+                    <span class="post-meta">{{ post.date | date_to_long_string }}</span>
+                    <!-- <span class="post-meta">{{ post.date }}</span> -->
+                    <span> • </span>
+                    <span class="post-meta">{{ post.categories | join:', ' }}</span>
+                    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                    {% if site.show_excerpts %}
+                        {{ post.excerpt }}
+                        <a class="btn btn-outline-success my-2 my-sm-0"  href="{{ post.url | prepend: site.baseurl }}" role="button">Read more ...</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 
 
   <!-- pagination -->
-  <nav aria-label="...">
-  {% if paginator.total_pages > 1 %}
-  <ul class="pagination justify-content-center">
-    {% if paginator.previous_page %}
-      <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
-    {% else %}
-      <li class="page-item disabled"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
-    {% endif %}
+    <nav aria-label="...">
+        {% if paginator.total_pages > 1 %}
+            <ul class="pagination justify-content-center">
+                {% if paginator.previous_page %}
+                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+                {% else %}
+                    <li class="page-item disabled"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+                {% endif %}
 
-    {% if paginator.page == 1 %}
-      <li class="page-item active"><a class="page-link" href="/">1</a></li>
-    {% else %}
-      <li class="page-item"><a class="page-link" href="/">1</a></li>
-    {% endif %}
+                {% if paginator.page == 1 %}
+                    <li class="page-item active"><a class="page-link" href="/">1</a></li>
+                {% else %}
+                    <li class="page-item"><a class="page-link" href="/">1</a></li>
+                {% endif %}
 
-    {% for page in (2..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <li class="page-item active"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-      {% else %}
-        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-      {% endif %}
-    {% endfor %}
+                {% for page in (2..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                        <li class="page-item active"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                    {% endif %}
+                {% endfor %}
 
-    {% if paginator.next_page %}
-      <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
-    {% else %}
-      <li class="page-item disabled"><a class="page-link disabled" href="">Next</a></li>
-    {% endif %}
-  </ul>
-  {% endif %}
-  </nav>
+                {% if paginator.next_page %}
+                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+                {% else %}
+                    <li class="page-item disabled"><a class="page-link disabled" href="">Next</a></li>
+                {% endif %}
+            </ul>
+        {% endif %}
+    </nav>
 
 </div>

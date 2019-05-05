@@ -7,6 +7,7 @@ categories:
 - movies
 tags:
 comments: true
+published: true
 ---
 
 Here is the list of my favourite movies.
