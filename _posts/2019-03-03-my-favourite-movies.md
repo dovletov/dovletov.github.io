@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. April 24th, 2019]
+title: My favourite movies [upd. July 7th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -42,3 +42,5 @@ Feel free to suggest your favourite ones in comments.
 25. [A Beautiful Mind](https://www.imdb.com/title/tt0268978/) -- It is only in the mysterious equation of love that any logical reasons can be found.
 26. [Elysium](https://www.imdb.com/title/tt1535108/) -- Love sci-fi movies
 27. [City of God](https://www.imdb.com/title/tt0317248/) -- "Get that chicken, dude!"
+28. [Life Is Beautiful](https://www.imdb.com/title/tt0118799/) -- Love. Family. Imagination
+29. [V for Vendetta](https://www.imdb.com/title/tt0434409/)
