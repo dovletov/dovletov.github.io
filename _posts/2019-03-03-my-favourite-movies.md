@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. July 7th, 2019]
+title: My favourite movies [upd. July 23rd, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -44,3 +44,4 @@ Feel free to suggest your favourite ones in comments.
 27. [City of God](https://www.imdb.com/title/tt0317248/) -- "Get that chicken, dude!"
 28. [Life Is Beautiful](https://www.imdb.com/title/tt0118799/) -- Love. Family. Imagination
 29. [V for Vendetta](https://www.imdb.com/title/tt0434409/)
+30. [The Perks of Being a Wallflower](https://www.imdb.com/title/tt1659337/) -- We accept the love we think we deserve. 
