@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. July 23rd, 2019]
+title: My favourite movies [upd. August 10th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
