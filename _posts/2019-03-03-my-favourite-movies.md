@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. August 10th, 2019]
+title: My favourite movies [upd. August 23th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -25,6 +25,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Eternal Sunshine of the Spotless Mind](https://www.imdb.com/title/tt0338013/) -- I guess we all want that technology to be real.
 00. [The Perks of Being a Wallflower](https://www.imdb.com/title/tt1659337/) -- We accept the love we think we deserve. 
 00. [The Pursuit of Happyness](https://www.imdb.com/title/tt0454921/) -- film about a thorny path to success.
+00. Only Lovers Left Alive(https://www.imdb.com/title/tt1714915/) -- Cool people never die
 00. [Shutter Island](https://www.imdb.com/title/tt1130884/) -- just awesome movie with Leo.
 00. [The Social Network](https://www.imdb.com/title/tt1285016/) -- we (men) do everything to get (get back) a women.
 00. [You've Got Mail](https://www.imdb.com/title/tt0128853/) -- Meg Ryan <3
