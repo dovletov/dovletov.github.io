@@ -18,6 +18,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Apocalypto](https://www.imdb.com/title/tt0472043/) -- "Everything has a beginning and an end, and all civilizations have operated like that" (c) Mel Gibson
 00. [City of God](https://www.imdb.com/title/tt0317248/) -- "Get that chicken, dude!"
 00. [Birdman or (The Unexpected Virtue of Ignorance)](https://www.imdb.com/title/tt2562232/) -- black comedy about a superhero.
+00. [Equilibrium](https://www.imdb.com/title/tt0238380/) -- No feeling!
 00. [Love Actually](https://www.imdb.com/title/tt0314331/) -- better watch it several days before Christmas.
 <!--more-->
 00. [Crazy, Stupid, Love.](https://www.imdb.com/title/tt1570728/) -- story about how crazy and stupid love is. 
@@ -25,7 +26,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Eternal Sunshine of the Spotless Mind](https://www.imdb.com/title/tt0338013/) -- I guess we all want that technology to be real.
 00. [The Perks of Being a Wallflower](https://www.imdb.com/title/tt1659337/) -- We accept the love we think we deserve. 
 00. [The Pursuit of Happyness](https://www.imdb.com/title/tt0454921/) -- film about a thorny path to success.
-00. Only Lovers Left Alive(https://www.imdb.com/title/tt1714915/) -- Cool people never die
+00. [Only Lovers Left Alive](https://www.imdb.com/title/tt1714915/) -- Cool people never die
 00. [Shutter Island](https://www.imdb.com/title/tt1130884/) -- just awesome movie with Leo.
 00. [The Social Network](https://www.imdb.com/title/tt1285016/) -- we (men) do everything to get (get back) a women.
 00. [You've Got Mail](https://www.imdb.com/title/tt0128853/) -- Meg Ryan <3
