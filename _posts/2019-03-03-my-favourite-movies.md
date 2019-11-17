@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. September 28th, 2019]
+title: My favourite movies [upd. November 17th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -21,6 +21,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Equilibrium](https://www.imdb.com/title/tt0238380/) -- No feeling!
 00. [Love Actually](https://www.imdb.com/title/tt0314331/) -- better watch it several days before Christmas.
 <!--more-->
+00. [Warrior](https://www.imdb.com/title/tt1291584/) -- "Why we are here?"
 00. [Crazy, Stupid, Love.](https://www.imdb.com/title/tt1570728/) -- story about how crazy and stupid love is. 
 00. [La La Land](https://www.imdb.com/title/tt3783958/) -- Ryan Gosling and Emma Stone have a real chemistry (:
 00. [Eternal Sunshine of the Spotless Mind](https://www.imdb.com/title/tt0338013/) -- I guess we all want that technology to be real.
