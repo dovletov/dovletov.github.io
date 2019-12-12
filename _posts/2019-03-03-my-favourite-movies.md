@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. November 17th, 2019]
+title: My favourite movies [upd. December 12th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -30,6 +30,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Only Lovers Left Alive](https://www.imdb.com/title/tt1714915/) -- Cool people never die
 00. [Shutter Island](https://www.imdb.com/title/tt1130884/) -- just awesome movie with Leo.
 00. [The Social Network](https://www.imdb.com/title/tt1285016/) -- we (men) do everything to get (get back) a women.
+00. [Room in Rome](https://www.imdb.com/title/tt1263750/) -- "Loving straaaaaangers.."
 00. [You've Got Mail](https://www.imdb.com/title/tt0128853/) -- Meg Ryan <3
 00. [Good Will Hunting](https://www.imdb.com/title/tt0119217/)
 00. [American Beauty](https://www.imdb.com/title/tt0169547/)
