@@ -1,5 +1,5 @@
 ---
-title: My favourite movies [upd. December 12th, 2019]
+title: My favourite movies [upd. December 21th, 2019]
 layout: post
 author: Ailurophile
 date: '2019-03-03 13:07:46'
@@ -18,6 +18,7 @@ Feel free to suggest your favourite ones in comments.
 00. [Apocalypto](https://www.imdb.com/title/tt0472043/) -- "Everything has a beginning and an end, and all civilizations have operated like that" (c) Mel Gibson
 00. [City of God](https://www.imdb.com/title/tt0317248/) -- "Get that chicken, dude!"
 00. [Birdman or (The Unexpected Virtue of Ignorance)](https://www.imdb.com/title/tt2562232/) -- black comedy about a superhero.
+00. [Capernaüm](https://www.imdb.com/title/tt8267604/) -- "Why are you suing your parents?" "For giving me life."
 00. [Equilibrium](https://www.imdb.com/title/tt0238380/) -- No feeling!
 00. [Love Actually](https://www.imdb.com/title/tt0314331/) -- better watch it several days before Christmas.
 <!--more-->
