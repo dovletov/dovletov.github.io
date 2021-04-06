@@ -10,7 +10,7 @@ comments: true
 published: true
 ---
 
-Here is the list of my favourite movies.
+Here is the list of my most favourite movies.
 It will be updated periodically.
 Feel free to suggest your favourite ones in comments.
 
@@ -51,3 +51,13 @@ Feel free to suggest your favourite ones in comments.
 00. [Elysium](https://www.imdb.com/title/tt1535108/) -- Love sci-fi movies
 00. [Life Is Beautiful](https://www.imdb.com/title/tt0118799/) -- Love. Family. Imagination
 00. [V for Vendetta](https://www.imdb.com/title/tt0434409/)
+00. [Parasite (기생충)]()
+00. [Sweet Bean (あん)]()
+00. [The Blind Side](https://www.imdb.com/title/tt0878804/) -- Family is everything <3
+00. [The Terminal](https://www.imdb.com/title/tt0362227/) -- "You have two stamp: one red, one green" Navorski (c)
+00. [BlacKkKlansman](https://www.imdb.com/title/tt7349662/)
+00. [Upside Down](https://www.imdb.com/title/tt1374992/)
+00. [The Island](https://www.imdb.com/title/tt0399201/)
+00. [Green Street Hooligans](https://www.imdb.com/title/tt0385002/)
+00. [Minority Report](https://www.imdb.com/title/tt0181689/)
+00. [Gangster Squad](https://www.imdb.com/title/tt1321870/)
