@@ -10,12 +10,29 @@
     border-top-color: #8cba80;
 }
 
+.border-b {
+    border-bottom: 1px solid #e8e8e8;
+}
+
 .bg-wheat {
     background-color: wheat;
 }
 
 .bg-moccasin {
     background-color: moccasin;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-shadow {
+    box-shadow: 0 0 0 0,0 6px 12px #a6b1b9;
+}
+
+.btn-outline-search {
+    color: #28a745;
+    border-color: #60e1e0;
 }
 
 
