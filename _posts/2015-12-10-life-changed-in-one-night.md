@@ -7,7 +7,7 @@ categories:
 - Story of my life
 tags:
 comments: true
-published: true
+published: false
 ---
 
 One day you go to sleep and when you wake up – she is already married. And then you realize – this is over :(
