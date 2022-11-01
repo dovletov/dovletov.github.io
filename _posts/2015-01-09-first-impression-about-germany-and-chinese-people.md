@@ -7,7 +7,7 @@ categories:
 - Story of my life
 tags:
 comments: true
-published: true
+published: false
 ---
 
 Германия – сказочная страна. Здесь все хорошо продумано, сделано с умом и для людей! 

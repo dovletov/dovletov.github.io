@@ -7,7 +7,7 @@ categories:
 - Story of my life
 tags:
 comments: true
-published: true
+published: false
 ---
 
 Эта история о том, как я прилетел в Германию, но живу с китайцами.

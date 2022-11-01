@@ -7,7 +7,7 @@ categories:
 - Story of my life
 tags:
 comments: true
-published: true
+published: false
 ---
 
 Первый раз в первый класс, или как прошел мой первый день в SF Education.
