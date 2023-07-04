@@ -19,7 +19,8 @@ disqus:
   shortname: newbies-blog
 
 # ga
-google_analytics: UA-125603404-1
+# google_analytics: UA-125603404-1
+google_analytics: G-8K5F14V55R
 
 # social links
 # twitter_username: keydeetter
